@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Software engineer · 42 Lausanne</b><br/>
-  I build systems from the ground up — and ship them.
+  I build systems from the ground up and ship them.
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 ### About
 
 I trained at **42 Lausanne**, a peer-to-peer school with no teachers and no lectures, where
-every project forbids the library that would have made it easy — no `printf` until you have
+every project forbids the library that would have made it easy, no `printf` until you have
 written `printf`, no `std::vector` until you have written one, no web framework until you
 have implemented HTTP yourself.
 
@@ -23,8 +23,7 @@ That left me with a habit more than a language: read the specification, handle t
 cases, free what you allocate, and verify instead of assuming.
 
 Alongside it I built and shipped **[shop.discado.ch](https://shop.discado.ch)**, a wholesale
-ERP that runs a real business — real orders, real stock, real Swiss QR invoices — rather
-than sitting on localhost.
+ERP that runs a business, orders, stock, Swiss QR invoices.
 
 ---
 
@@ -38,7 +37,7 @@ gets a **personalised roadmap** of topics aligned to their daily goals. From the
 tutor** takes over: explanations, exercises, corrections, and conversation practice that
 picks up where the last session left off instead of restarting from zero every time.
 
-The tutor is **retrieval-augmented** rather than a bare chatbot — answers are grounded in
+The tutor is **retrieval-augmented** rather than a bare chatbot. Answers are grounded in
 language material retrieved from a vector store, so feedback stays tied to the learner's
 actual level and mistakes. Add live peer practice and progress analytics on top, and the
 system is meant to keep pushing the level up rather than just answering questions.
@@ -66,8 +65,7 @@ Docker Compose for local and production, and Vitest, Supertest and Playwright co
 codebase, separated by a database-driven permission system: catalogue, ordering, stock,
 suppliers, delivery notes, accounting, statistics, and compliant Swiss QR invoicing.
 Version 2 is a **React + Vite + Tailwind** PWA; the v1 Node.js/Express/SQLite implementation
-that took it into production is public at
-**[catalog.discado.ch](https://github.com/VYAntares/catalog.discado.ch)**.
+that took it into production is now in private.
 
 **[webserv](https://github.com/VYAntares/webserv)** — an HTTP/1.1 server written from
 scratch in C++98. `epoll`-driven non-blocking I/O across every socket and CGI pipe,
@@ -153,19 +151,6 @@ libraries, no memory leaks.
 ---
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=VYAntares&show_icons=true&hide_border=true&theme=github_dark&count_private=true"/>
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=VYAntares&show_icons=true&hide_border=true&theme=graywhite&count_private=true" alt="GitHub stats"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VYAntares&layout=compact&hide_border=true&theme=github_dark&langs_count=8"/>
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VYAntares&layout=compact&hide_border=true&theme=graywhite&langs_count=8" alt="Most used languages"/>
-  </picture>
-</p>
-
----
-
-<p align="center">
-  <a href="mailto:endroahm@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"/></a>
+  <a href="mailto:contact@vyantares.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"/></a>
   <a href="https://profile.intra.42.fr/users/eahmeti"><img src="https://img.shields.io/badge/42_Intra-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Intra"/></a>
 </p>
